@@ -1,0 +1,33 @@
+#box1{
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    box-shadow: 20px 10px 5px;
+}
+h1{
+    text-shadow: 3px 3px 7px hsl(200, 92%, 56%);
+}
+body{
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 3em;
+    width: 150px;
+    height: 150px;
+}
+#box2{
+    background-color: rgb(236, 49, 49);
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+#box3{
+    background-color: rgb(13, 132, 236);
+    margin: 45px;
+}
+#box4{
+    background-color: rgb(219, 219, 32);
+    margin-left: auto; 
+    margin-right: 25px;
+}
