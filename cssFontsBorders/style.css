@@ -1,0 +1,26 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(83, 58, 20);
+    border-radius: 10px;
+}
+#p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-style: italic;
+    border-top: 3px dotted hsl(260, 100%, 50%);
+}
+#p2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: 250;
+    border-left: 3px solid hsl(260, 100%, 50%);
+    border-right: 2px dashed hsl(260, 100%, 50%);
+}
+#p3{
+    border: 5px ridge hsl(49, 100%, 50%);
+    border-radius: 5px;
+}
+
