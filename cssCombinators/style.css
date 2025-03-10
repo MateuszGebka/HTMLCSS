@@ -1,0 +1,15 @@
+#container{
+    border: 3px solid;
+}
+#container p{
+    background-color: hsl(120, 80%, 69%);
+}
+#container > p{
+    font-size: 1.5em;
+}
+#container ~ p{
+    background-color: yellow;
+}
+#container + p{
+    font-size: 1.5em
+}
