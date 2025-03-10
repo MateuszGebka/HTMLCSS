@@ -1,0 +1,50 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+    font-size: 2em;
+}
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(39, 149, 70);
+    text-align: center;
+    font-size: 2em;
+    position: fixed;
+    right: 0px;
+    bottom: 25px;
+}
+#ancestor{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(53, 92, 8);
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    top: 550px;
+    left: 350px;
+}
+#absol{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(215, 42, 42);
+    text-align: center;
+    font-size: 0.8em;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#sticky{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: sticky;
+    top: 5px;
+    left: 650px;
+    text-align: center;
+    font-size: 2em;
+}
