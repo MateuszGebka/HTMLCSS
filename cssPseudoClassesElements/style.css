@@ -1,0 +1,69 @@
+button:hover{
+    font-size: 2.2em;
+    background-color: aquamarine;
+}
+button:active{
+    font-size: 2.5em;
+    background-color: blueviolet;
+}
+button{
+    font-size: 2em;
+}
+a:link{
+    color: aquamarine;
+    font-size: 2em;
+    margin-left: 25px;
+}
+a:hover{
+    color: brown;
+}
+li{
+    font-size: 1.5em;
+}
+li:hover{
+    background-color: aqua;
+}
+li:not(:hover){
+    background-color: antiquewhite;
+}
+li:nth-child(odd){
+    background-color: rgb(195, 158, 229);
+}
+li:nth-child(2n){
+    background-color: rgb(141, 98, 182);
+}
+div{
+    font-size: 2em;
+}
+#greetings p{
+    background-color: blue;
+    padding: 10px;
+    display: none;
+}
+#greetings:hover p{
+    display: block;
+}
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: antiquewhite;
+}
+p::selection{
+    color: white;
+    background-color: black;
+}
+#apple::after{
+    content: "🍏";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    content: "✔";
+    color:rgb(7, 255, 7)
+}
