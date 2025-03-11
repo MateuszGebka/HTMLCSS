@@ -1,0 +1,10 @@
+div{
+    text-align: center;
+}
+.search{
+    font-size: 50px;
+    color: blue;
+}
+.search:hover{
+    color: rgb(2, 2, 135);
+}
