@@ -39,6 +39,12 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+audio{
+    width: 350px;
+    position: absolute;
+    left: 450px;
+    top: 350px;
+}
 @keyframes slideLeft{
     from{transform: translateX(500%);}
 }
