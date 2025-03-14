@@ -41,6 +41,9 @@ article{
 figure{
     border: 2px solid black;
 }
+h2{
+    font-size: 25px;
+}
 
 footer{
     display: block;
@@ -48,13 +51,16 @@ footer{
     background-color: rgb(125, 125, 125);
     text-align: center;
     padding: 5px;
-    position: fixed;
+    position: relative;
     bottom: 0px;
     width: 100%;
 
 }
 
-@media screen and (max-width:600px) {
+@media (max-width:1024px) {
+    body{
+        font-size: 14px;
+    }
     aside, section, article{
         width: 100%;
     }
